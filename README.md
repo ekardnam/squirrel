@@ -1,6 +1,6 @@
 # squirrel
 
-A Python tool to work with the Cicada Liber Primus
+A dumb scripting language written in Python to work with the Cicada Liber Primus
 
 ## How to use
 

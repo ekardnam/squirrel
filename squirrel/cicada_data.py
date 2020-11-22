@@ -1,5 +1,5 @@
-table = {
-  "ᚠ": "F", 
+rune_to_latin = {
+  "ᚠ": "F",
   "ᚢ": "V",
   "ᚦ": "TH",
   "ᚩ": "O",
@@ -30,9 +30,8 @@ table = {
   "ᛠ": "EA",
   "•": " "
 }
-
-inverse_table = {
-  "F":"ᚠ", 
+latin_to_rune = {
+  "F":"ᚠ",
   "V": "ᚢ",
   "TH": "ᚦ",
   "O": "ᚩ",
@@ -62,9 +61,8 @@ inverse_table = {
   "IA": "ᛡ",
   "EA": "ᛠ",
 }
-
-gematria_values = {
-  "ᚠ": 0, 
+rune_to_index = {
+  "ᚠ": 0,
   "ᚢ": 1,
   "ᚦ": 2,
   "ᚩ": 3,
@@ -94,9 +92,8 @@ gematria_values = {
   "ᛡ": 27,
   "ᛠ": 28
 }
-
-gematria_to_rune = [
-  "ᚠ", 
+index_to_rune = [
+  "ᚠ",
   "ᚢ",
   "ᚦ",
   "ᚩ",
@@ -126,8 +123,6 @@ gematria_to_rune = [
   "ᛡ",
   "ᛠ"
 ]
-
-
 liber_primus = """ᚣᛖᛝᚳ•ᚦᛂᚷᚫ•ᚠᛂᛟ•
 ᚩᚾᚦ•ᚾᛖᚹᛒᚪᛋᛟᛇᛁᛝᚢ•ᚾᚫᚷᛁᚦ•ᚻᛒᚾᛡ•
 ᛈᛒᚾ•ᛇᛂᚦ•ᚪᛝᚣᛉ•ᛒᛞᛈ•ᛖᛡᚠᛉᚷᚠ•
